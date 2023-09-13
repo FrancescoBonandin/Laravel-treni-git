@@ -4,16 +4,20 @@ namespace App\Http\Controllers\Guest;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+// use App\Models\Train;
 
 class TrainController extends Controller
 {
     
     public function index() {
-        return view('homepage');
+        // $trains = Train::all();
+
+        //return view('homepage', compact('trains'));
     }
 
     public function singleTrain($id) {
-        
-         return view('singolTrain');
+        // $singolTrain = Train::find($id);
+
+         return view('singolTrain', compact('singolTrain'));
     }
 }
