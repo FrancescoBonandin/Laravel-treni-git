@@ -1,3 +1,15 @@
 <main>
+
+
+
+
     HOMEPAGE
+
+
+
+
+
+
+
+    
 </main>
